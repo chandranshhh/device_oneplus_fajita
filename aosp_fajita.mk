@@ -25,6 +25,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 $(call inherit-product, vendor/aosp/config/common.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Official
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := aosp_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
